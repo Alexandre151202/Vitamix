@@ -1,0 +1,94 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello TarifsController!{% endblock %}
+
+    {% block body %}
+        <div class="container">
+            <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+                <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+                </a>
+
+                <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="/" class="nav-link px-2 link-secondary">Accueil</a></li>
+                    <li><a href="contact" class="nav-link px-2 link-dark">Contact</a></li>
+                    <li><a href="tarifs" class="nav-link px-2 link-dark">Tarifs</a></li>
+                    <li><a href="faq" class="nav-link px-2 link-dark">FAQs</a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark">Qui suis-je</a></li>
+                </ul>
+
+                <div class="col-md-3 text-end">
+                    <button type="button" class="btn btn-outline-primary me-2">Login</button>
+                    <button type="button" class="btn btn-primary">Sign-up</button>
+                </div>
+            </header>
+        </div>
+
+        <section class="py-15 py-xl-20">
+            <div class="container mt-10">
+                <div class="row justify-content-center mb-10">
+                    <div class="col-lg-8 text-center">
+                        <h1 class="mb-2">Tarifs Forfaits</h1>
+                        <p class="fs-lg text-secondary">Trifs pour les anniversaires ou mariages avec des supplement si tu veux</p>
+                    </div>
+                </div>
+                <div class="row g-3 g-xl-5 align-items-end">
+                    <div class="col-lg-4">
+                        <div class="card border">
+                            <div class="card-body">
+                                <h2 class="h1 mb-4">600$</h2>
+                                <p class="text-muted mb-4">Forfait anniversaire .</p>
+                                <ul class="list-unstyled mb-4">
+                                    <li class="py-1">6 Premium accounts</li>
+                                    <li class="py-1">Ad-free usic listening</li>
+                                    <li class="py-1">Listen to music ad-free</li>
+                                </ul>
+                                <div class="d-grid">
+                                    <a href="https://themes.getbootstrap.com/product/cube-multipurpose-template-ui-kit/"
+                                       class="btn btn-outline-primary btn-lg rounded-pill btn-with-icon">Réservez maintenant <i
+                                                class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border">
+                            <div class="card-body">
+                                <h2 class="h1 mb-4">750$</h2>
+                                <p class="text-muted mb-4">Forfait Mariage .</p>
+                                <ul class="list-unstyled mb-4">
+                                    <li class="py-1">6 Premium accounts</li>
+                                    <li class="py-1">Ad-free usic listening</li>
+                                    <li class="py-1">Listen to music ad-free</li>
+                                </ul>
+                                <div class="d-grid">
+                                    <a href="https://themes.getbootstrap.com/product/cube-multipurpose-template-ui-kit/"
+                                       class="btn btn-outline-primary btn-lg rounded-pill btn-with-icon">Réservez maintenant <i
+                                                class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border">
+                            <div class="card-body">
+                                <h2 class="h1 mb-4">1000000000$</h2>
+                                <p class="text-muted mb-4">Forfait Mariage ++.</p>
+                                <ul class="list-unstyled mb-4">
+                                    <li class="py-1">6 Premium accounts</li>
+                                    <li class="py-1">Ad-free usic listening</li>
+                                    <li class="py-1">Listen to music ad-free</li>
+                                </ul>
+                                <div class="d-grid">
+                                    <a href="https://themes.getbootstrap.com/product/cube-multipurpose-template-ui-kit/"
+                                       class="btn btn-outline-primary btn-lg rounded-pill btn-with-icon">Réservez maintenant <i
+                                                class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+{% endblock %}
